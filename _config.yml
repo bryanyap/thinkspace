@@ -3,7 +3,7 @@ title_left    : "bryanyap"
 title_right   : ".me" # default: ""
 description   : "Technology evangelist."
 keywords      : "Bryan, Yap, Developer, Integration, Workato, Software, Engineering, Information, Systems, Data"
-url           : https://bryanyap-preview.netlify.com # site url
+url           : https://bryanyap.netlify.com # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
