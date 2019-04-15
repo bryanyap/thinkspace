@@ -3,15 +3,20 @@ title_left    : "bryanyap"
 title_right   : ".me" # default: ""
 description   : "Technology evangelist."
 keywords      : "Bryan, Yap, Developer, Integration, Workato, Software, Engineering, Information, Systems, Data"
-url           : https://www.bryanyap.me # site url
+url           : https://bryanyap.netlify.com # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
-google_analytics  : UA-XXXXX-XX
+google_analytics  : UA-138215750-1
 twitter_username  : "byap91"
-comments_enabled  : false # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : ""
-postshare_enabled : false
+linkedin_url: "https://www.linkedin.com/in/bryanyappj/"
+comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : "www-bryanyap-me"
+postshare_enabled : true
+
+current_company:
+  name: "Workato"
+  url: "https://www.workato.com"
 
 # Build settings
 permalink   : /:year/:title/
@@ -29,6 +34,10 @@ sass:
 # Author settings
 author:
   name     : "Bryan Yap"
+  first_name: "Bryan"
+  last_name: "Yap"
+  location_primary: "Singapore"
+  location_secondary: "Cupertino"
 
 plugins:
   - jekyll-sitemap
